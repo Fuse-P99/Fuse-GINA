@@ -1,5 +1,4 @@
 # Fuse-GINA
-Fuse GINA Packages
 
 :wow: Fuse GINA :wow:
 
