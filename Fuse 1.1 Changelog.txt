@@ -7,12 +7,12 @@ _______________________________________
 - Added a TOD system (05 - Raiding > 01 - General Raid Triggers)--when a raid mob dies, you will be reminded to enter a TOD. Once it dies, and loot is linked, "/gu !tod XXXXXXX now" will be copied to your clipboard for easy entry. Your help is appreciated 8). **NOTE: this is resource intensive, uncheck this group if you experience performance issues**
 
 - Reworked our list system & added lists for rampage tanks, bumps, and draggers (05 - Raiding > 01 - General Raid Triggers > Good to Know > Lists).
-	- **Fluffers** = FFC - CLR1, CLR2, CLR3
-	- **Main Tanks** = FMT - WAR1, WAR2, WAR3
-	- **Rampage Tanks** = FRT - WAR1, WAR2, WAR3
-	- **Trash Tanks** = FTT - KNIGHT1, KNIGHT2, KNIGHT3
-	- **Bumpers** = FBL - BUMP1, BUMP2, BUMP3
-	- **Draggers** = FDL - DRAGGERX
+	- Fluffers = FFC - CLR1, CLR2, CLR3
+	- Main Tanks = FMT - WAR1, WAR2, WAR3
+	- Rampage Tanks = FRT - WAR1, WAR2, WAR3
+	- Trash Tanks = FTT - KNIGHT1, KNIGHT2, KNIGHT3
+	- Bumpers = FBL - BUMP1, BUMP2, BUMP3
+	- Draggers = FDL - DRAGGERX
 
 - Added macro format comments to all buff/debuff triggers.
 
