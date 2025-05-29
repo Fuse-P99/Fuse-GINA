@@ -1,0 +1,123 @@
+Fuse 1.1
+_______________________________________
+- Added a help menu for GINA-related commands (02 - Common > 01 - Gina Help) -- /t help for a menu 8)
+
+- Reworked all of the raiding chain messages (05 - Raiding > 01 - General Raid Triggers > Chains). Added new group CH chains and you have the ability to enable/disable different chains as you see fit.
+
+- Added a TOD system (05 - Raiding > 01 - General Raid Triggers)--when a raid mob dies, you will be reminded to enter a TOD. Once it dies, and loot is linked, "/gu !tod XXXXXXX now" will be copied to your clipboard for easy entry. Your help is appreciated 8). **NOTE: this is resource intensive, uncheck this group if you experience performance issues**
+
+- Reworked our list system & added lists for rampage tanks, bumps, and draggers (05 - Raiding > 01 - General Raid Triggers > Good to Know > Lists).
+	- **Fluffers** = FFC - CLR1, CLR2, CLR3
+	- **Main Tanks** = FMT - WAR1, WAR2, WAR3
+	- **Rampage Tanks** = FRT - WAR1, WAR2, WAR3
+	- **Trash Tanks** = FTT - KNIGHT1, KNIGHT2, KNIGHT3
+	- **Bumpers** = FBL - BUMP1, BUMP2, BUMP3
+	- **Draggers** = FDL - DRAGGERX
+
+- Added macro format comments to all buff/debuff triggers.
+
+- Reworked all chain heals (05 - Raiding > 01 - General Raid Triggers > Chains).
+
+- Fixed/move Call of the Zero timer (05 - Raiding > 01 - General Raid Triggers > Good To Know)--good to know when you're going to be summoned again. There were some syntax issues with the current trigger.
+
+- Reworked "rez inc" trigger (02 - Common > 02 - General > Basic Stuff). Had to add an additional trigger to work properly.
+
+- Changed the copy to clipboard text for clerics when someone hails a corpse (01 - Class Specific > Cleric > General)--it will now have an apostrophe at the end to make sure you target the corpse, not the player.
+
+- Reduced warrior proc counter (01 - Class Specific > Warrior > General) reset timer to 30s (from 45s).
+
+- Added 73m "generic custom" timer (02 - Common > 02 - General > Timers > Generic Timers).
+
+- Added early more early end conditions for Levitate/Dead Guy Float (03 - Buffs > 02 - From Pals).
+
+- Added Situational Raiding (under 07 - Situational) group with a warning for going /roleplay while raiding. Thanks Mkdir.
+
+- Added a public Trident slow trigger (07 - Situational > Raiding Team-ups).
+
+- Added anonymous warning (05 - Raiding > 01 - General Raid Triggers > Alerts)--it will fire any time you go /anonymous on accident.
+
+- Added manually fired timers (02 - Common > 02 - General > Timers > Faux Timers) for dragon fear (/t fear), DAs (/t da), Vulak`Aerr AoE (/t ab), and Lord Yelinak AoE (/t ib).
+
+- Added a manually fired dazzle timer (01 - Class Specific > Enchanter > Crowd Control) for enchanters (/t daz). Can also do /t dazXXXXXX to start a dazzle timer for XXXXXX.
+
+- Added Concussion to the list of exceptions for Spell Resisted trigger (02 - Common > 05 - Caster)--as it is unresistable.
+
+- Added a warning trigger (02 - Common > 02 - General > Basic Stuff) for when something is too far away for trades & dragging (left inspects and "can't reach that" out because it would be too annoying). Thanks Mkdir!
+
+- Call of Fire trigger (01 - Class Specific > Ranger > Buffs > Self) is now reporting in the appropriate category.
+
+- Fixed syntax on a number of triggers that weren't picking up low damage hits/heals.
+
+- Added a bard instrument warning (01 - Class Specific > Bard > General) -- will notify you when you don't have the appropriate instrument equipped.
+
+- Added an "out of ammo" trigger (02 - Common > 04 - Melee) for all melee friends.
+
+- Added a Windstriker proc (01 - Class Specific > Ranger > General) for rangers--you'll know when it hits!
+
+- Added a War Bow of Rallos Zek debuff (04 - Debuffs > 01 - Debuffs > Items) & added it to the list of procs (01 - Class Specific > Warrior > General) for warriors.
+
+- Added a Razor Fang of Xygoz debuff trigger (04 - Debuffs > 01 - Debuffs > Items).
+
+- Added many new zone timers (08 - Zone Specific): The Great Oowomp & raptors in Timorous Deep, suits of senitient armor in The Wakening Lands, a few major camps in Lower Guk, Cazic Cenobite & clay golem in Cazic Thule, Grazhak & Mortificator in Rathe Mountains, and the twin giants in Frontier Mountains. Thanks to Mkdir on several of these 8)!
+
+- Added a buff request system under (07 - Situational > Buff Requests). Big thanks to Mkdir for inspiration!
+
+- Fixed several flavor triggers (07 - Situational > Fun Fun Fun Fun Fun!). Weird P99 syntax wins again!
+
+- Minor adjustments to the Nillipuss trigger (08 - Zone Specific > 01 - Old World > Rivervale > King o' Jumjum) & added a Nillipuss trigger when GINA sees his flavor text. Can also /t nilli to start a Nillipus timer Protect the Jumjum!
+
+- Updated the tracking trigger for "Target Killed" trigger to "Target Slain" (02 - Common > 02 - General > Tracking, Tells, Yells, Hails & Duels > Tracking & Yells) when your tracking target is killed.
+
+- Minor adjustment to the porter request system (07 - Situational > Porting).
+
+- Added a big dick bow hit (01 - Class Specific > Ranger > General) for all our ranger pals, didn't want them to feel excluded.
+
+- Updated all raid mob information triggers (05 - Raiding > 03 - Raid Mob Information) to be more consistent, fixed minor issues.
+
+- Added new condition to the server ticker (07 - Situational > Situational Caster). It will now start ticking if you use a Kromzek Surveyor's Scope.
+
+- Fixed Arch Duke Latol's triggers (08 - Zone Specific > 02 - Kunark > Old Sebilis > Crpyt + Emperor) in Old Sebilis (dumb p99 syntax wins again).
+
+- Reworked all raiding team up chain triggers, should be working fine and accomodate CH groups (07 - Situational > Raiding Team-ups > Chains (Public)).
+
+- Added a Throne Counter under Plane of Mischief triggers (08 - Zone Specific > 03 - Velious > Plane of Mischief > Throne Mobs), join me in misery.
+
+- Made some minor tweaks to the Cazic Thule pop trigger (07 - Situational > Tracking).
+
+- Added a Lore Item audio warning (02 - Common > 03 - Alerts).
+
+- Added a "do not sell" trigger (02 - Common > 03 - Alerts) for high value items that will remind you to not press sell :)
+
+- Reworked Patch Heal Request trigger (07 - Situational > Patch Heal Requests). It will now display under buff requests (and copy /tar requester to your clipboard).
+
+- Added sound file to faux DA timer (07 - Situational > Fun Fun Fun Fun Fun!).
+
+- Added a Bane counter (07 - Situational > Fun fun fun fun fun!). Works for Hsagra Wrath & Porlos Fury.
+
+- Made GCD timer for Tunamelt(tm) (07 - Situational > Plane of Growth > Tunamelt Prep) a repeating timer.
+
+- Added a Nybright sister trigger for exping on sisters in Lesser Faydark (08 - Zone Specific > 01 - Old World - Lesser Faydark)
+
+- Added a double bow damage sound effect (01 - Class Specific > Ranger > General) for rangers.
+
+- Minor tweak to Want to Buy trigger (02 - Common > 02 - General > Auctions) to improve performance.
+
+- Updated several debuff triggers that were reseting regardless of trigger name (i.e. Curse of the Spirits would reset each time it landed on a mob).
+
+- Reworked syntax on all generic custom timers (02 - Common > 02 - General > Timers > Generic Custom Timers). Thanks Kickenit for finding the problem!
+
+- Minor tweaks to the rez box timer (02 - Common > 02 - General > Timers) to see /say messages.
+
+- Added a trigger (05 - Raiding > 01 - General Raid Triggers > Good to Know) for when a Drakkel Dire Wolf is hitting over 244 (uncharmable). Thanks Mkdir.
+
+- /t spells will trigger a text pop up listing 25 DKP minimum bid spells (05 - Raiding > 01 - General Raid Triggers > Good to Know).
+
+- Added two groups of triggers (07 - Situational > Overlay Configuration Help) to help with overlay adjustment.
+/t overlays will trigger all timer overlays with an hour timer, allowing you to see them without having to manually trigger buffs/CH chains/etc (end them early with /t endoverlays)
+/t text will trigger text overlays allowing you to see where they appear on screen.
+
+- Added a consented list under Clerics (01 - Class Specific > Cleric > General) that will add names of those that need to be dragged/rezzed to the raid list (same as tanks, fluffers, etc).
+
+- Added early end timers for Divine Aura/Divine Barrier cooldown timer (01 - Class Specific > Cleric > Invulnerability). Both can be ended by typing /t endda or /t enddb.
+
+- Reworked the bard slow triggers: created a separate group for non-Angstlich's Assonance slows called "Other Bard Slows" (04 - Debuffs > Debuffs > Bard).
