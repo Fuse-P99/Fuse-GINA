@@ -2,11 +2,11 @@
 
 ![Version](https://img.shields.io/badge/version-1.1-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-![EverQuest](https://img.shields.io/badge/EverQuest-Fuse%20Server-green)
+![EverQuest](https://img.shields.io/badge/EverQuest-Project%201999-blue)
 
-> **The Ultimate GINA Package for Fuse EverQuest Server**
+> **The Ultimate GINA Package for Fuse Guild on Project 1999**
 
-Welcome to the official Fuse-GINA repository! This comprehensive GINA package is specifically designed for the Fuse private EverQuest server, providing hundreds of pre-configured triggers, timers, and overlays to enhance your gameplay experience.
+Welcome to the official Fuse-GINA repository! This comprehensive GINA package is specifically designed for the Fuse Guild on the Project 1999 EverQuest emulation server, providing hundreds of pre-configured triggers, timers, and overlays to enhance your gameplay experience.
 
 ## 📖 What is GINA?
 
@@ -24,7 +24,7 @@ Fuse-GINA is a meticulously crafted package of triggers and overlays specificall
 
 ## 📋 Requirements
 
-- **EverQuest**: Installed and configured for Fuse server
+- **EverQuest**: Installed and configured for Project 1999 server
 - **GINA**: Latest version from [eq.gimasoft.com/gina/](https://eq.gimasoft.com/gina/)
 - **Windows**: 7/8/10/11 (64-bit recommended)
 - **Memory**: 4GB RAM minimum (8GB recommended for optimal performance)
@@ -86,10 +86,10 @@ Once Fuse-GINA is installed, you can use these commands in-game to access variou
 
 - **[Fuse GINA Primer](https://bit.ly/4iLin7h)** - Complete documentation
 - **[GINA Official Site](https://eq.gimasoft.com/gina/)** - Download GINA
-- **[Fuse Server](https://fuse-eq.com/)** - Join the Fuse community
+- **[Project 1999](https://www.project1999.com/)** - Official P99 website
 
 ---
 
 **Happy Gaming!** 🎮✨
 
-*Fuse-GINA is maintained by the Fuse community for the Fuse community.*
+*Fuse-GINA is maintained by the Fuse Guild on Project 1999.*
